@@ -37,16 +37,16 @@ p {
     flex-direction: column;
 }
 
-#headline-display {
-    border: 10px solid;
-    border-radius: 30px;
+#display {
+    border: 2px solid;
+    border-radius: 5px;
     text-align: center;
-    padding-top: 70px;
-    height: 50%;
+    vertical-align: top;
 }
 
 #data-output {
     padding-top: 70px;
+    padding-left: 50px;
     height: 50%;
 }
 

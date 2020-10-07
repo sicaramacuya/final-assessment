@@ -20,14 +20,14 @@
             
                         <label for="select-font">Font Family</label>
                         <select id="select-font">
-                            <option value="helvetic">Helvetic</option>
-                            <option value="arial">Arial</option>
-                            <option value="time-new-roman">Time New Roman</option>
-                            <option value="georgia">Georgia</option>
+                            <option value="Helvetic">Helvetic</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Time New Roman">Time New Roman</option>
+                            <option value="Georgia">Georgia</option>
                         </select>
             
                         <label for="input-color">Font Color</label>
-                        <input id="input-color" type="color" value="#000">
+                        <input id="input-color" type="color" value="#000000">
             
                         <label for="input-bg-color">Background Color</label>
                         <input id="input-bg-color" type="color" value="#fff">
@@ -39,15 +39,19 @@
             </div>
             <div id="right-side-container">
                 <section id="headline-display">
-                    <h1 id="display">SAMPLE TEXT</h1>
+                    <h1 id="display" style="font-size: 16px;">SAMPLE TEXT</h1>
                 </section>
                 <section id="data-output">
-                    <pre><code>.headline {
-                        font-size: <span id="show-size">16</span>px;
-                        font-family: <span id="show-font">Times</span>;
-                        color: <span id="show-color">#000</span>;
-                        background-color: <span id="show-bg-color">#fff</span>;
-                    }</code></pre>
+                    <pre><code>
+                        <!-- This code is pass as is written here -->
+.headline {
+    font-size: <span id="show-size">16</span>px;
+    font-family: <span id="show-font">Times</span>;
+    color: <span id="show-color">#000</span>;
+    background-color: <span id="show-bg-color">#fff</span>;
+}
+                        <!-- This code is pass as is written here -->
+                    </code></pre>
                 </section>
             </div>
         </div>
